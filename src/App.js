@@ -1,23 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Main from "./pages/Main";
+import About from "./pages/About";
+import Inspo from "./pages/Inspo";
+import Writing from "./pages/Writing";
+import React from "react";
+
+function Header() {
+  const [darkMode, setDarkMode] = React.useState(false);
+
+  React.useEffect(() => {
+    const body = document.body;
+    const toggle = document.querySelector(".toggle-inner");
+
+    // If dark mode is enabled - adds classes to update dark-mode styling.
+    // Else, removes and styling is as normal.
+    if (darkMode === true) {
+      body.classList.add("dark-mode");
+      toggle.classList.add("toggle-active");
+    } else {
+      body.classList.remove("dark-mode");
+      toggle.classList.remove("toggle-active");
+    }
+  }, [darkMode]);
+
+  return (
+    <header>
+      <div
+        id="toggle"
+        onClick={() =>
+          darkMode === false ? setDarkMode(true) : setDarkMode(false)
+        }
+      >
+        <div className="toggle-inner" />
+      </div>
+    </header>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-screen h-screen" id="app">
+      <Header />
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/inspo" element={<Inspo />}></Route>
+          <Route path="/writing/:id" element={<Writing />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
