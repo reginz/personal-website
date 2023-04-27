@@ -17,10 +17,9 @@ function Navbar() {
     }
   }, [location]);
 
-  console.log(active);
   return (
     <div className=" flex items-center py-16">
-      <div className="w-full flex justify-between items-center">
+      <div className="w-full flex justify-between items-center max-sm:flex-col max-sm:items-start">
         <NavLink to="/">
           <h2 className="text-2xl font-medium">Zeynep Evecen</h2>
         </NavLink>

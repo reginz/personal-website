@@ -10,7 +10,7 @@ import WritingInner from "./pages/WritingInner";
 function App() {
   return (
     <div
-      className="w-screen h-screen container mx-auto px-4 max-w-4xl"
+      className="w-screen h-screen mx-auto px-4 max-w-4xl"
       id="app"
     >
       <BrowserRouter>

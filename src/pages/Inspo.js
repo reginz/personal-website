@@ -8,7 +8,7 @@ function Inspo() {
     { name: "Farklı Düşün", category: "podcast" ,link:"https://farkli-dusun.simplecast.com/"},
   ];
   return (
-    <div className="w-3/4 m-auto">
+    <div className="w-3/4 m-auto max-sm:w-full">
       <h1 className="text-3xl text-[#582BE8] pb-8">inspo.</h1>
       <p className="pb-10">
         Some of those works have had extraordinary effects on my life or way of

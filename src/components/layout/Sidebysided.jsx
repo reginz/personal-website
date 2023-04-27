@@ -3,7 +3,7 @@ import React from "react";
 function Sidebysided(props) {
     return (
       <div>
-        <div className="flex gap-10">
+        <div className="flex gap-10 max-sm:flex-col">
           <span className="col-span-2 pt-8 text-lg font-extrabold text-black dark:text-white md:pt-0 md:text-right md:text-base md:font-normal md:text-opacity-40">
             {props.title}
           </span>

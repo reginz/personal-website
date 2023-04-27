@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="w-3/4 m-auto">
+    <div className="w-3/4 m-auto max-sm:w-full">
       <h1 className="text-3xl text-[#582BE8] pb-8 ">about.</h1>
       <p className="about">
         I’m Zeynep -currently studying Computer Engineering and looking for an

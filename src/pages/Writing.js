@@ -1,7 +1,7 @@
 import React from "react";
 import Table from "../components/Table";
 
-function Writing(props) {
+function Writing() {
   const writing = [
     {
       name: "Do Things That Will Surpass Your Life",
@@ -16,7 +16,7 @@ function Writing(props) {
     },
   ];
   return (
-    <div className="w-3/4 m-auto">
+    <div className="w-3/4 m-auto max-sm:w-full">
       <h1 className="text-3xl text-[#582BE8] pb-8">writing.</h1>
       <div className="flex flex-col gap-3">
         {writing.map((w) => {

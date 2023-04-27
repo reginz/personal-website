@@ -7,7 +7,7 @@ import profile from "../images/profile.svg";
 function Hero() {
   return (
     <div>
-      <div className="flex gap-10 items-center">
+      <div className="flex gap-10 items-center max-sm:flex-col">
         <div className="flex flex-col gap-10">
           <p>
             Hey, I am Zeynep. I am a Computer Engineering student who loves
@@ -15,8 +15,8 @@ function Hero() {
             projects, read and learn to design human-centered interfaces.
           </p>
 
-          <div className="flex gap-7 items-center">
-            <button className="border-inherit border rounded-md px-6 py-1 shadow-sm hover:border-gray-400 ease-in-out duration-200">
+          <div className="flex gap-7 items-center max-sm:flex-col max-sm:items-start">
+            <button className="border-inherit border rounded-md px-6 py-1 shadow-sm hover:border-gray-400 ease-in-out duration-200 max-sm:w-full">
                 <a href="https://www.polywork.com/zeynep_evecen" target="_blank">
                 View changelog
                 </a>
@@ -46,7 +46,7 @@ function Hero() {
             </div>
           </div>
         </div>
-        <img src={profile} alt="profile photo"></img>
+        <img className="max-sm:hidden" src={profile} alt="profile photo"></img>
       </div>
     </div>
   );
