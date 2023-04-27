@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Main />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/inspo" element={<Inspo />}></Route>
-          <Route path="/writings" element={<Writing />} />
+          <Route path="/writing" element={<Writing />} />
           <Route path="/writing/:id" element={<WritingInner />} />
         </Routes>
       </BrowserRouter>

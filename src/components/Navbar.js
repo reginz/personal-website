@@ -69,9 +69,9 @@ function Navbar() {
               <div></div>
             )}
           </NavLink>
-          <NavLink to="/writings">
+          <NavLink to="/writing">
             writing
-            {active === "writings" ? (
+            {active === "writing" ? (
               <svg
                 width="50"
                 height="7"
