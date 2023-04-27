@@ -8,7 +8,7 @@ function Writing(props) {
       time: "20 Apr 2021",
       link: "/writing/surpass",
     },
-    { name: "Boxing An AI", time: "24 Apr 2021", link: "/writing/decorating" },
+    { name: "Boxing An AI", time: "24 Apr 2021", link: "/writing/boxing" },
     {
       name: "Everything I’ve learnt from decorating my tiny room",
       time: "10 Mar 2023",
