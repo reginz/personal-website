@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Writing() {
+function Writing(props) {
     return (
         <div>
             

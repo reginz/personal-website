@@ -17,3 +17,28 @@ code {
     monospace;
 }
 
+@keyframes dash {
+  from {
+    stroke-dashoffset: 800;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.path {
+  stroke-dasharray: 500;
+  animation: dash 1s linear;
+}
+
+.markdown-rendered > * {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.markdown-rendered h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  color: #333;
+}
