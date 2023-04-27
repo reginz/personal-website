@@ -4,7 +4,7 @@ import genie from "../images/genie.svg";
 
 function ProjectCrd(props) {
   return (
-    <a href={props.link} className="cursor-pointer"> 
+    <a href={props.link} className="cursor-pointer" target="_blank"> 
     <div className="rounded-2xl shadow-lg shadow-stone-200 border border-gray-800 w-80 h-96 pt-11 flex flex-col gap-8 hover:shadow-stone-400 ease-in-out duration-300">
       <img className="w-full" src={props.name === "genie" ? genie : spoti}></img>
       <div className="px-8 py-4 flex flex-col gap-3">

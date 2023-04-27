@@ -3,9 +3,9 @@ import Table from "../components/Table";
 
 function Inspo() {
   const data = [
-    { name: "Star Trek: TNG", category: "show" },
-    { name: "Art of Doing Science and Engineering", category: "book" },
-    { name: "Farklı Düşün", category: "podcast" },
+    { name: "Star Trek: TNG", category: "show", link: "https://www.imdb.com/title/tt0092455/" },
+    { name: "Art of Doing Science and Engineering", category: "book", link: "http://worrydream.com/refs/Hamming-TheArtOfDoingScienceAndEngineering.pdf" },
+    { name: "Farklı Düşün", category: "podcast" ,link:"https://farkli-dusun.simplecast.com/"},
   ];
   return (
     <div className="w-3/4 m-auto">
@@ -16,7 +16,7 @@ function Inspo() {
       </p>
       <div className="flex flex-col gap-3">
         {data.map((d) => {
-          return <Table first={d.name} last={d.category} link=""></Table>;
+          return <Table first={d.name} last={d.category} link={d.link}></Table>;
         })}
       </div>
     </div>

@@ -48,7 +48,7 @@ function Main() {
     return (
       <div className="flex gap-28">
         {projects.map((p) => {
-          return <ProjectCrd name={p.name} desc={p.desc} tags={p.tools} />;
+          return <ProjectCrd name={p.name} desc={p.desc} tags={p.tools} link={p.link}/>;
         })}
       </div>
     );
