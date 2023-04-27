@@ -19,7 +19,7 @@ const Post = ({ id }) => {
   return (
     <div>
         <article>
-          <main className="post-wrapper">
+          <main className="post-wrapper pb-10">
             <Markdown className="markdown-rendered">{postContent}</Markdown>
           </main>
         </article>
