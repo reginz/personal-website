@@ -7,7 +7,7 @@ import React from "react";
 
 function App() {
   return (
-    <div className="w-screen h-screen container mx-auto px-4" id="app">
+    <div className="w-screen h-screen container mx-auto px-4 max-w-4xl" id="app">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />}></Route>
