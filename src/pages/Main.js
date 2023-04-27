@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Table from "../components/Table";
 import Sidebysided from "../components/layout/Sidebysided";
 import ProjectCrd from "../components/ProjectCrd";
+import LocationCard from "../components/LocationCard";
 
 function Main() {
   const work = [
@@ -28,11 +29,13 @@ function Main() {
       name: "genie",
       desc: "AI powered custom app generator.",
       tools: ["React", "Node", "Chat GPT"],
+      link: "https://webappgenie.com/"
     },
     {
       name: "spotimage",
       desc: "A web app that generates Spotify playlists from the images mood.",
       tools: ["Flask", "Python", "Tensorflow"],
+      link: "https://github.com/reginz/spotimage"
     },
   ];
   function WorkTable() {
@@ -56,6 +59,7 @@ function Main() {
       <Hero />
       <Sidebysided title="Work" table={WorkTable} />
       <Sidebysided title="Projects" table={Projects}/>
+      <Sidebysided title="Where" table={LocationCard}/>
     </div>
   );
 }

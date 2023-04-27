@@ -4,11 +4,13 @@ import About from "./pages/About";
 import Inspo from "./pages/Inspo";
 import Writing from "./pages/Writing";
 import React from "react";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="w-screen h-screen container mx-auto px-4 max-w-4xl" id="app">
       <BrowserRouter>
+      <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Main />}></Route>
           <Route path="/about" element={<About />}></Route>
