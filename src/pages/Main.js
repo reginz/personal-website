@@ -9,17 +9,17 @@ function Main() {
   const work = [
     {
       name: "Freelencing on Contra",
-      position: "Web Developer (Dec 2022 - Apr 2023)",
+      position: "Web Developer (Dec 2023 - Apr 2023)",
       link: "https://contra.com/zeynep_evecen",
     },
     {
       name: "Oslo Philantrophic Exchange",
-      position: "Frontend Engineer (Dec 2022 - Apr 2023)",
+      position: "Frontend Engineer (Apr 2022 - Mar 2023)",
       link: "https://www.opx.org/",
     },
     {
       name: "Brieferr",
-      position: "Web Developer (Dec 2022 - Apr 2023)",
+      position: "Web Developer (Feb 2021 - Jun 2022)",
       link: "https://brieferr.com/home",
     },
   ];

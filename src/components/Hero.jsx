@@ -46,7 +46,7 @@ function Hero() {
             </div>
           </div>
         </div>
-        <img className="max-sm:hidden" src={profile} alt="profile photo"></img>
+        <img className="max-sm:w-full" src={profile} alt="profile photo"></img>
       </div>
     </div>
   );
