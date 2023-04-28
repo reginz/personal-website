@@ -46,7 +46,7 @@ function Main() {
 
   function Projects() {
     return (
-      <div className="flex gap-28 max-sm:flex-col max-sm:gap-9">
+      <div className="flex flex-wrap gap-28 max-sm:flex-col max-sm:gap-9">
         {projects.map((p) => {
           return <ProjectCrd name={p.name} desc={p.desc} tags={p.tools} link={p.link}/>;
         })}
