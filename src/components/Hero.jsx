@@ -3,6 +3,7 @@ import linkedin from "../images/linkedin.svg";
 import github from "../images/github.svg";
 import twitter from "../images/twitter.svg";
 import profile from "../images/profile.svg";
+import resume from "../images/resume.svg";
 
 function Hero() {
   return (
@@ -42,6 +43,14 @@ function Hero() {
                 target="_blank"
               >
                 <img src={github} alt="github icon" />
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1cWcV8NUNHUYVz6wm8Y1eNQcU9o404YLY/view?usp=sharing"
+                className="w-8 h-8"
+                target="_blank"
+                
+              >
+                <img src={resume} alt="resume icon" />
               </a>
             </div>
           </div>
