@@ -4,16 +4,22 @@ import Table from "../components/Table";
 function Writing() {
   const writing = [
     {
-      name: "Do Things That Will Surpass Your Life",
-      time: "20 Apr 2021",
-      link: "/writing/surpass",
+      name: "A Web Developer's Journey: From Coding to Crafting User Experiences",
+      time: "4 Jul 2023",
+      link: "/writing/my-journey",
     },
-    { name: "Boxing An AI", time: "24 Apr 2021", link: "/writing/boxing" },
     {
       name: "Everything I’ve learnt from decorating my tiny room",
       time: "10 Mar 2023",
       link: "/writing/decorating",
     },
+    { name: "Boxing An AI", time: "24 Apr 2021", link: "/writing/boxing" },
+    {
+      name: "Do Things That Will Surpass Your Life",
+      time: "20 Apr 2021",
+      link: "/writing/surpass",
+    },
+    
   ];
   return (
     <div className="w-3/4 m-auto max-sm:w-full">

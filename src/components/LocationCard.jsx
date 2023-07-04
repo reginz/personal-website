@@ -3,7 +3,7 @@ import loc from '../images/loc.svg'
 function LocationCard() {
     return (
         <div className=''>
-            <img className='h-full w-full' src={loc}></img>
+            <img className='h-full w-full' alt="Location image" src={loc}></img>
         </div>
     );
 }
