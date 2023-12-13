@@ -8,8 +8,13 @@ import LocationCard from "../components/LocationCard";
 function Main() {
   const work = [
     {
+      name: "Concide",
+      position: "UI Developer (Apr 2023 - Current)",
+      link: "https://www.linkedin.com/company/concide-io/",
+    },
+    {
       name: "Freelencing on Contra",
-      position: "Web Developer (Dec 2023 - Apr 2023)",
+      position: "Web Developer (Dec 2022 - Apr 2023)",
       link: "https://contra.com/zeynep_evecen",
     },
     {

@@ -12,7 +12,9 @@ function Navbar() {
       setActive("inspo");
     } else if (location.pathname === "/writing") {
       setActive("writing");
-    } else {
+    } else if (location.pathname === "/translations") {
+      setActive("translations");
+    }else {
       setActive("");
     }
   }, [location]);
@@ -73,6 +75,28 @@ function Navbar() {
             {active === "writing" ? (
               <svg
                 width="50"
+                height="7"
+                viewBox="0 0 58 7"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="path"
+                  d="M1 5.5L12 1.5L17 4L25.5 5.5L34 3H41.5L46.5 4H57"
+                  stroke="#582BE8"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            ) : (
+              <div></div>
+            )}
+          </NavLink>
+          <NavLink to="/translations">
+          translations
+            {active === "translations" ? (
+              <svg
+                width="65"
                 height="7"
                 viewBox="0 0 58 7"
                 fill="none"

@@ -6,6 +6,8 @@ import Writing from "./pages/Writing";
 import React from "react";
 import Navbar from "./components/Navbar";
 import WritingInner from "./pages/WritingInner";
+import Translations from "./pages/Translations";
+import TranslationsInner from "./pages/TranslationsInner";
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
           <Route path="/inspo" element={<Inspo />}></Route>
           <Route path="/writing" element={<Writing />} />
           <Route path="/writing/:id" element={<WritingInner />} />
+          <Route path="/translations" element={<Translations />} />
+          <Route path="/translations:id" element={<TranslationsInner />} />
+
         </Routes>
       </BrowserRouter>
     </div>

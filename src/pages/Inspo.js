@@ -6,6 +6,9 @@ function Inspo() {
     { name: "Star Trek: TNG", category: "show", link: "https://www.imdb.com/title/tt0092455/" },
     { name: "Art of Doing Science and Engineering", category: "book", link: "http://worrydream.com/refs/Hamming-TheArtOfDoingScienceAndEngineering.pdf" },
     { name: "Farklı Düşün", category: "podcast" ,link:"https://farkli-dusun.simplecast.com/"},
+    { name: "Amusing Ourselves to Death", category: "book", link: "https://www.goodreads.com/book/show/74034.Amusing_Ourselves_to_Death" },
+    { name: "Atomic Habits", category: "book", link: "https://www.goodreads.com/book/show/40121378-atomic-habits" },
+
   ];
   return (
     <div className="w-3/4 m-auto max-sm:w-full">

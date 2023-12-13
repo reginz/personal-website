@@ -18,8 +18,8 @@ function Hero() {
 
           <div className="flex gap-7 items-center max-sm:flex-col max-sm:items-start">
             <button className="border-inherit border rounded-md px-6 py-1 shadow-sm hover:border-gray-400 ease-in-out duration-200 max-sm:w-full">
-                <a href="https://www.polywork.com/zeynep_evecen" target="_blank">
-                View changelog
+                <a href="https://www.goodreads.com/user/show/106914753-zeynep" target="_blank">
+                What I'm reading
                 </a>
             </button>
             <div className="flex gap-3">
