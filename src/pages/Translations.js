@@ -3,7 +3,7 @@ import Table from "../components/Table";
 
 function Translations() {
   const translations =[{
-    name: "Konformizmin Dört Çeyreğİ",
+    name: "Konformizmin Dört Çeyreği",
     time: "12 Jul 2021",
     link: "/writing/four-quadrants-of-conformism",
     author: "Paul Graham"

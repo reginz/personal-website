@@ -3,12 +3,13 @@ import Table from "../components/Table";
 
 function Inspo() {
   const data = [
+    { name: "Notion - Pioneers: Alan Kay", category: "podcast" ,link:"https://www.youtube.com/watch?v=LdMk0OP-0PA"},
     { name: "Star Trek: TNG", category: "show", link: "https://www.imdb.com/title/tt0092455/" },
     { name: "Art of Doing Science and Engineering", category: "book", link: "http://worrydream.com/refs/Hamming-TheArtOfDoingScienceAndEngineering.pdf" },
-    { name: "Farklı Düşün", category: "podcast" ,link:"https://farkli-dusun.simplecast.com/"},
     { name: "Amusing Ourselves to Death", category: "book", link: "https://www.goodreads.com/book/show/74034.Amusing_Ourselves_to_Death" },
     { name: "Atomic Habits", category: "book", link: "https://www.goodreads.com/book/show/40121378-atomic-habits" },
-
+    { name: "Dune", category: "book", link: "https://www.google.com/search?q=dune+frank+herbert" },
+    { name: "Dynamic Land", category: "project", link: "https://dynamicland.org/" },
   ];
   return (
     <div className="w-3/4 m-auto max-sm:w-full">
