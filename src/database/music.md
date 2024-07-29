@@ -11,4 +11,4 @@ This tool is serving me very well, even [though we can not say truly “random�
 I built this app for totally experimental purposes, but I found it so useful that I had felt the need to share it here. [If anybody else wants to use it, you can enter your email to the “join alpha” input field.](https://capstone-five-beige.vercel.app/) Unfortunately, direct login with your Spotify account isn't available yet as I'm still waiting for Spotify to approve my app for public use. In the meantime, I can manually add emails for those who want to try it.
 
 PS: Make sure the email you enter is the same as your Spotify account email.
-<video src="video.mov" width="320" height="240" controls></video>
+<video src="/public/video.mov" width="320" height="240" controls></video>
