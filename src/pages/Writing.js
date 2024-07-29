@@ -4,6 +4,11 @@ import Table from "../components/Table";
 function Writing() {
   const writing = [
     {
+      name: "The lie of music discovery",
+      time: "29 Jul 2024",
+      link: "/writing/music",
+    },
+    {
       name: "A Web Developer's Journey: From Coding to Crafting User Experiences",
       time: "4 Jul 2023",
       link: "/writing/my-journey",
@@ -19,7 +24,6 @@ function Writing() {
       time: "20 Apr 2021",
       link: "/writing/surpass",
     },
-    
   ];
   return (
     <div className="w-3/4 m-auto max-sm:w-full">
