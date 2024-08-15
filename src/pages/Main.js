@@ -43,6 +43,11 @@ function Main() {
   ];
   const writing = [
     {
+      name: "The Next Interface",
+      time: "15 Aug 2024",
+      link: "/writing/interface",
+    },
+    {
       name: "The lie of music discovery",
       time: "29 Jul 2024",
       link: "/writing/music",
