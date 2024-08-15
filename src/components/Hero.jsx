@@ -11,9 +11,9 @@ function Hero() {
       <div className="flex gap-10 items-center max-sm:flex-col">
         <div className="flex flex-col gap-10">
           <p>
-            Hey, I am Zeynep. I am a Computer Engineering student who loves
-            developing beautiful interfaces. In my free time I work on coding
-            projects, read and learn to design human-centered interfaces.
+            Hey, I am Zeynep.  I'm a UX/UI designer and front-end engineer 
+            who loves blending creativity with technology. I’m all about crafting 
+            intuitive digital experiences that feel just right.
           </p>
 
           <div className="flex gap-7 items-center max-sm:flex-col max-sm:items-start">
