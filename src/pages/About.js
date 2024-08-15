@@ -5,32 +5,13 @@ function About() {
     <div className="w-3/4 m-auto max-sm:w-full">
       <h1 className="text-3xl text-[#582BE8] pb-8 ">about.</h1>
       <p className="about">
-        I’m Zeynep -currently studying Computer Engineering and looking for an
-        intership. My interests lie in creating accessible and user-centered
-        technologies. I also love crafting web apps, participating in fun
-        projects, and playing piano once in a while.
-        <br></br>
-        <br></br>My tech career started rather early, when I started collage in
-        2020. Since we were all in lockdown, I had plenty of time to teach
-        myself how to code and started building websites. One upside when we
-        were in the pandemic was, everything was online so I had the change to
-        work with amazing people all over the world.
-        <br></br>
-        <br></br> I recently was working as a Frontend Engineer at Oslo
-        Philantrophic Exchange, where I’ve had the change to learn how to
-        integrate databases and APIs seamlessly.
-        <br></br>
-        <br></br>My first role and the role where I’ve learnt the most was Web
-        Developer at Brieferr. Since it was a startup, I had the chance to wear
-        many hats. I have conducted UX research and talked to users, and from
-        that I’ve built a full-stack app using React and Node.js.
-        <br></br>
-        <br></br>When I’m not busy with my studies and work you can find me
-        biking, reading intresting stuff and participating in coding projects.
-        If you would like to get in touch,{" "}
-        <a href="mailto:zeynepevecen@gmail.com">email me.</a> Or reach out to me
-        from my socials.
-      </p>
+Hi, I’m Zeynep! I’m a UX/UI designer and front-end engineer with a background in Computer Science. My passion lies in creating accessible, user-centered technologies and crafting intuitive digital experiences. I’ve had the pleasure of working on a variety of projects, from sleek web apps to full-stack applications, always aiming to blend creativity with functionality.
+<br><br>
+My tech career began in 2020, during the pandemic, when I had the opportunity to dive deep into coding and start building websites. The upside of everything being online was the chance to collaborate with amazing people from around the world.
+<br><br>
+Currently, I’m working as a UX/UI Designer at Concide, where I focus on creating seamless user interfaces. Before this, I freelanced as a Web Developer on Contra and served as a Frontend Engineer at Oslo Philanthropic Exchange, where I gained valuable experience integrating databases and APIs. My first role was as a Web Developer at Brieferr, a startup where I learned the most by wearing many hats—conducting UX research, talking to users, and building a full-stack app using React and Node.js.
+<br><br>
+When I’m not coding or designing, you can find me biking, reading interesting articles, or participating in fun coding projects. If you’d like to get in touch, feel free to <a href="mailto:zeynepevecen@gmail.com">email me</a> or reach out through my social media channels.      </p>
     </div>
   );
 }
