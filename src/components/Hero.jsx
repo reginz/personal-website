@@ -11,15 +11,15 @@ function Hero() {
       <div className="flex gap-10 items-center max-sm:flex-col">
         <div className="flex flex-col gap-10">
           <p>
-            Hey, I am Zeynep.  I'm a UX/UI designer and front-end engineer 
+            Hey, I am Zey.  I'm a UX engineer 
             who loves blending creativity with technology. I’m all about crafting 
             intuitive digital experiences that feel just right.
           </p>
 
           <div className="flex gap-7 items-center max-sm:flex-col max-sm:items-start">
             <button className="border-inherit border rounded-md px-6 py-1 shadow-sm hover:border-gray-400 ease-in-out duration-200 max-sm:w-full">
-                <a href="https://www.goodreads.com/user/show/106914753-zeynep" target="_blank">
-                What I'm reading
+                <a href="https://www.are.na/zeynep-evecen/channels" target="_blank">
+                🧠   My brain dump 
                 </a>
             </button>
             <div className="flex gap-3">
@@ -44,18 +44,11 @@ function Hero() {
               >
                 <img src={github} alt="github icon" />
               </a>
-              <a
-                href="https://drive.google.com/file/d/1cWcV8NUNHUYVz6wm8Y1eNQcU9o404YLY/view?usp=sharing"
-                className="w-8 h-8"
-                target="_blank"
-                
-              >
-                <img src={resume} alt="resume icon" />
-              </a>
+
             </div>
           </div>
         </div>
-        <img className="max-sm:w-full" src={profile} alt="profile photo"></img>
+        <img width="300" height="300" className="max-sm:w-full" src={profile} alt="profile photo"></img>
       </div>
     </div>
   );
