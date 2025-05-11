@@ -6,8 +6,13 @@ import Sidebysided from "../components/layout/Sidebysided";
 function Main() {
   const work = [
     {
+      name: "Saga",
+      position: "UX Engineer (Mar 2024 - Current)",
+      link: "https://www.linkedin.com/company/sagalegal-io/",
+    },
+    {
       name: "Concide",
-      position: "UI Developer (Apr 2023 - Current)",
+      position: "UI Developer (Apr 2023 - Apr 2024)",
       link: "https://www.linkedin.com/company/concide-io/",
     },
     {
