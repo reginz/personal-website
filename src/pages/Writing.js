@@ -14,11 +14,6 @@ function Writing() {
       link: "/writing/music",
     },
     {
-      name: "A Web Developer's Journey: From Coding to Crafting User Experiences",
-      time: "4 Jul 2023",
-      link: "/writing/my-journey",
-    },
-    {
       name: "Everything I’ve learnt from decorating my tiny room",
       time: "10 Mar 2023",
       link: "/writing/decorating",
