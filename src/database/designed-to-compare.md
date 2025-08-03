@@ -10,7 +10,7 @@ But with social media we are in this constant comparison mode with everybody you
 
 And as humans, we are designed to compare.
 
-(Comparison is a great tool)[https://en.wikipedia.org/wiki/Social_comparison_theory] to get better, analyze our decisions, and try to imagine which decisions can take us where without actually living it.
+[Comparison is a great tool](https://en.wikipedia.org/wiki/Social_comparison_theory) to get better, analyze our decisions, and try to imagine which decisions can take us where without actually living it.
 
 But the amount of stuff we see and the frequency of it creates unmanageable and unactionable ways of comparison.
 
@@ -40,13 +40,13 @@ Honestly, I am tired even when I am talking about it.
 
 Creates such an unnecessary noise in the back of my mind.
 
-So I installed an app called (Beeper)[https://www.beeper.com/]. It’s basically a client that connects all the messaging apps into one place, but I used it only for my socials. I connected my Instagram and Twitter to see what people were sending me and to keep up small talk with the people I love.
+So I installed an app called [Beeper](https://www.beeper.com/). It's basically a client that connects all the messaging apps into one place, but I used it only for my socials. I connected my Instagram and Twitter to see what people were sending me and to keep up small talk with the people I love.
 
 And I deleted Instagram and Twitter from my phone.
 
 I can still watch videos from the websites of the socials by clicking the links people send, even if I don’t have the app.
 
-Viewing from browsers is definitely not as comfortable and they don’t have (infinite scrool. Which, honestly, should be the norm.)[https://www.uxtigers.com/post/ux-roundup-20250623]
+Viewing from browsers is definitely not as comfortable and they don't have [infinite scrool. Which, honestly, should be the norm.](https://www.uxtigers.com/post/ux-roundup-20250623)
 
 I think in the future, when we look back at social media consumption habits, the algorithms, and the design patterns, we’ll say, “What the fuck were people doing?”
 
