@@ -4,6 +4,11 @@ import Table from "../components/Table";
 function Writing() {
   const writing = [
     {
+      name: "Designed to compare",
+      time: "03 Aug 2025",
+      link: "/writing/designed-to-compare",
+    },
+    {
       name: "The Next Interface",
       time: "15 Aug 2024",
       link: "/writing/interface",

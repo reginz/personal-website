@@ -48,6 +48,11 @@ function Main() {
   ];
   const writing = [
     {
+      name: "Designed to compare",
+      time: "03 Aug 2025",
+      link: "/writing/designed-to-compare",
+    },
+    {
       name: "The Next Interface",
       time: "15 Aug 2024",
       link: "/writing/interface",
@@ -84,7 +89,7 @@ function Main() {
 
   return (
     <div className="flex flex-col gap-32 pb-10">
-      <Hero /> 
+      <Hero />
       <Sidebysided title="Writing" table={WritingTable} />
       <Sidebysided title="Work" table={WorkTable} />
     </div>
